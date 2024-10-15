@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="e">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+    </script>
+</head>
+
+<div class="gallery">
+    <img src="image1.jpg" alt="Beautiful sunset over the mountains" onmouseover="upDate(this)" onmouseleave="undo()">
+    <img src="image2.jpg" alt="A calm beach on a sunny day" onmouseover="upDate(this)" onmouseleave="undo()">
+    <img src="image3.jpg" alt="A forest trail covered in autumn leaves" onmouseover="upDate(this)"
+        onmouseleave="undo()">
+    <img src="image4.jpg" alt="A cityscape with modern skyscrapers" onmouseover="upDate(this)" onmouseleave="undo()">
+    <img src="image5.jpg" alt="A close-up of blooming cherry blossoms" onmouseover="upDate(this)" onmouseleave="undo()">
+    <img src="image6.jpg" alt="A starry night sky in the wilderness" onmouseover="upDate(this)" onmouseleave="undo()">
+</div>
+<div id="image">
+    Hover over an image below to display here.
+</div>
+<img src="image1.jpg" alt="Beautiful sunset" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)"
+    onblur="undo()" tabindex="0">
+
+<body onload="initializeGallery()">
+
+</html>
